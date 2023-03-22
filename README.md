@@ -30,8 +30,6 @@ Destroy all the windows and end the program.
 # Developed By:R.Vijay
 # Register Number:212221230121
 # i) Convert BGR and RGB to HSV and GRAY
-
-~~~
 import cv2
 house_color_image = cv2.imread('house.jpg')
 cv2.imshow('Original image',house_color_image)
@@ -50,7 +48,7 @@ cv2.imshow('RGB2GRAY',gray_image1)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-~~~
+
 
 
 
