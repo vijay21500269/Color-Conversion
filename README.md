@@ -125,19 +125,24 @@ cv2.destoryAllWindows()
 ```
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-![img1](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP1.png)
+![DIP1](https://user-images.githubusercontent.com/94381788/228289333-35097c93-fc22-489c-bdb9-1569685962e2.png)
+
 
 ### ii) HSV to RGB and BGR
-![img2](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP2.png)
+![DIP2](https://user-images.githubusercontent.com/94381788/228289437-02a9b47b-444a-4ef7-bb89-d8710a2f9370.png)
+
 
 ### iii) RGB and BGR to YCrCb
-![img3](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP3.png)
+![DIP3](https://user-images.githubusercontent.com/94381788/228289511-8617f726-587f-473d-94af-d50dbae66905.png)
+
 
 ### iv) Split and merge RGB Image
-![img4](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP4.png)
+![DIP4](https://user-images.githubusercontent.com/94381788/228289592-cb626594-134d-4573-b0b3-5df234dbf13c.png)
+
 
 ### v) Split and merge HSV Image
-![img5](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP5.png)
+![DIP5](https://user-images.githubusercontent.com/94381788/228289651-2447f713-b1d0-457b-b847-de5f22df4e76.png)
+
 
 
 ## Result:
