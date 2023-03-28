@@ -53,7 +53,7 @@ cv2.destroyAllWindows()
 
 
 # ii)Convert HSV to RGB and BGR
-~~~
+
 import cv2
 sun_color_image = cv2.imread('img5.jpg')
 cv2.imshow('Original image', sun_color_image)
@@ -63,14 +63,14 @@ gray_image1 = cv2.cvtColor (sun_color_image, cv2.COLOR_HSV2BGR)
 cv2.imshow('HSV2BGR', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
-~~~
+
 
 
 
 
 
 # iii)Convert RGB and BGR to YCrCb
-~~~
+
 import cv2
 sun_color_image = cv2.imread('img5.jpg')
 cv2.imshow('Original image', sun_color_image)
@@ -80,13 +80,13 @@ gray_image1 = cv2.cvtColor (sun_color_image, cv2.COLOR_BGR2YCrCb)
 cv2.imshow('BGR2YCrCb', gray_image1)
 cv2.waitKey(0)
 cv2. destroyAllWindows()
-~~~
+
 
 
 
 
 # iv)Split and Merge RGB Image
-~~~
+
 import cv2
 image = cv2.imread('img5.jpg')
 blue=image[:,:,0]
@@ -99,13 +99,13 @@ merged_BGR=cv2.merge((blue,green,red))
 cv2.imshow('Merged BGR Image',merged_BGR)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
-~~~
+
 
 
 
 
 # v) Split and merge HSV Image
-~~~
+
 import cv2
 image = cv2.imread('img5.jpg')
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
@@ -117,7 +117,7 @@ Merged_HSV = cv2.merge((h,s,v))
 cv2.imshow('Merged HSV Image',Merged_HSV)
 cv2.waitKey(0)
 cv2.destoryAllWindows()
-~~~
+
 
 
 
@@ -125,19 +125,19 @@ cv2.destoryAllWindows()
 ```
 ## Output:
 ### i) BGR and RGB to HSV and GRAY
-![img1]()
+![img1](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP1.png)
 
 ### ii) HSV to RGB and BGR
-![img2]()
+![img2](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP2.png)
 
 ### iii) RGB and BGR to YCrCb
-![img3]()
+![img3](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP3.png)
 
 ### iv) Split and merge RGB Image
-![img4]()
+![img4](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP4.png)
 
 ### v) Split and merge HSV Image
-![img5]()
+![img5](https://github.com/vijay21500269/Color-Conversion/blob/main/DIP5.png)
 
 
 ## Result:
